@@ -1,0 +1,248 @@
+{
+  "site_name": "Cloudy's Corner",
+  "name": "cloudy.yang",
+  "emails": [
+    "cloudy_1212@outlook.com",
+    "2354342@tongji.edu.cn"
+  ],
+  "phone": "+86 18259237265",
+  "socials": [
+    {
+      "name": "GitHub · Cloudy12121212",
+      "url": "https://github.com/Cloudy12121212"
+    }
+  ],
+  "avatar": "",
+  "about_avatar": "/avatars/cloudy-chibi-v3-glasses.png",
+  "profile_pending": false,
+  "github_pending": false,
+  "role": "Transportation Engineering · Tongji University",
+  "intro": "Curiosity in motion.\nIdeas into practice.",
+  "bio": "I’m cloudy.yang, a transportation engineering undergraduate exploring the intersection of AI, engineering and thoughtful tools. Based in Xiamen and Shanghai.",
+  "about": "Tongji University · BEng in Transportation Engineering\n2023–2027 · Based in Xiamen & Shanghai\nMy work brings together Python, large language models, engineering simulation and computer vision.",
+  "projects": [
+    {
+      "id": "runway",
+      "title": "Runway AI: engineering in conversation",
+      "category": "Research",
+      "year": "2024.12–2025.04",
+      "number": "01",
+      "summary": "A natural-language assistant for airport pavement structural analysis and simulation.",
+      "detail": "Project lead for an LLM-based pavement structural-response platform. The workflow covers intent recognition, engineering-parameter extraction, mechanical modeling, scenario inference and result visualization.\n\nI developed the Python backend, agent architecture and prompts, completed model fine-tuning, and worked on frontend integration and debugging.\n\nOutcome: software copyright registration for an LLM-based pavement structural-response simulation system, with first authorship. \n\nThe public repository contains the web interface for engineering Q&A, parameter inversion and 3D-model workflows. The Python backend responsibilities above are documented in my résumé; backend source is not included in this public repository.",
+      "tags": [
+        "Python",
+        "LLM agents",
+        "Engineering simulation"
+      ],
+      "link": "https://github.com/Cloudy12121212/LLM-based-intelligent-question-answering-system-for-airport-runway-structural-analysis",
+      "source": "Research · public frontend",
+      "related_links": [
+        {
+          "name": "Earlier frontend version ↗",
+          "url": "https://github.com/Cloudy12121212/tjzhidazhushou"
+        }
+      ]
+    },
+    {
+      "id": "lowlight",
+      "title": "Seeing better in low light",
+      "category": "Research",
+      "year": "2025.10–present",
+      "number": "02",
+      "summary": "CycleGAN-based enhancement for low-light UAV inspection imagery.",
+      "detail": "Project lead researching image enhancement for low-light UAV inspection. The project quantifies enhancement quality and investigates visual thresholds for airport pavement inspection.\n\nMy responsibilities include UAV field data collection, CycleGAN training and iteration, image-quality evaluation and parameter optimization.\n\nThis is ongoing research; no numerical performance results are claimed here. \n\nThe public repository is currently an empty placeholder. Research responsibilities are documented in my résumé; code has not yet been published.",
+      "tags": [
+        "CycleGAN",
+        "Computer vision",
+        "UAV inspection"
+      ],
+      "link": "https://github.com/Cloudy12121212/Low-light-UAV-image-enhancement-based-on-CycleGAN",
+      "source": "Ongoing research"
+    },
+    {
+      "id": "regulatory",
+      "title": "Autonomous vehicle supervision",
+      "category": "Development",
+      "year": "2026",
+      "number": "03",
+      "summary": "A supervision platform connecting vehicle records, test tasks, live status and trajectory playback.",
+      "detail": "A React and Spring Boot platform for autonomous-driving test and demonstration areas. The public implementation covers enterprise and vehicle records, test tasks, event handling, device reports and historical trajectories.\n\nArchitecture: React / TypeScript, Spring Boot, MySQL, JWT / RBAC and enterprise data isolation, with STOMP / WebSocket updates.\n\nSome statistics, configuration and extended analysis screens use explicitly labeled demo data. This project supervises vehicles; it does not implement autonomous-driving control or perception algorithms.",
+      "tags": [
+        "React",
+        "Spring Boot",
+        "MySQL",
+        "WebSocket"
+      ],
+      "link": "https://github.com/Cloudy12121212/shanghai-jiading-autonomous-vehicle-equipment-regulatory-platform",
+      "source": "Public repository"
+    },
+    {
+      "id": "parking",
+      "title": "Tongji Parking Brain",
+      "category": "Prototype",
+      "year": "2025.12",
+      "number": "04",
+      "summary": "A campus parking prototype with record import, occupancy charts and reservation workflows.",
+      "detail": "A React / TypeScript interface with separate driver and manager views. It supports importing parking records, calculating hourly occupancy, viewing charts and demonstrating reservation review. It also includes Gemini-assisted chat and report-generation integrations.\n\nCurrent scope: reservations are held in React memory. Availability forecasts use time-of-day heuristics, while the LSTM training logs and fitted curves are simulated. This is an interaction prototype, not a deployed parking service or a validated trained prediction model.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Recharts",
+        "Interaction prototype"
+      ],
+      "link": "https://github.com/Cloudy12121212/Intelligence-Parking-System",
+      "source": "Public prototype"
+    }
+  ],
+  "experience": [
+    {
+      "date": "2026.08–present",
+      "title": "Vehicle Network Diagnostics · AI Test Development Intern",
+      "org": "NIO · Shanghai",
+      "logo": "/logos/nio.svg",
+      "text": "Develop Python- and LLM-assisted testing tools for vehicle network diagnostics. Work on test-data cleaning, analysis and visualization, and improve automated testing workflows."
+    },
+    {
+      "date": "2026.07–2026.08",
+      "title": "Product Management Intern",
+      "org": "Shanghai Cheyun Data Technology Co., Ltd.",
+      "text": "Contributed to a vehicle and equipment supervision platform for the Jiading autonomous-driving demonstration zone, including interface development, data services, dashboards and role-based access workflows."
+    }
+  ],
+  "life": [
+    {
+      "title": "Music, beyond the screen",
+      "label": "TONGJI CHINESE ORCHESTRA",
+      "text": "A member of the wind section of Tongji University’s Chinese Orchestra since 2023. Performed with the orchestra at the 7th National College Student Art Exhibition and the Shanghai Spring concert. The ensemble received a first prize at the national exhibition and a Yangtze River Delta best-team honor; I received Tongji’s first-class Boya Scholarship. Music is a practice of listening, collaboration and expression.",
+      "image": ""
+    },
+    {
+      "title": "Between two cities",
+      "label": "XIAMEN ↔ SHANGHAI",
+      "text": "Based in Xiamen and Shanghai. A space for my own city photographs, everyday moments and travel notes.",
+      "image": "",
+      "pending": true
+    }
+  ],
+  "education": [
+    {
+      "date": "2023–2027",
+      "school": "Tongji University",
+      "logo": "/logos/tongji.svg",
+      "detail": "BEng · Transportation Engineering"
+    },
+    {
+      "date": "Class of 2023",
+      "school": "Xiamen No. 1 High School, Fujian",
+      "logo": "/logos/xiamen-no1.svg",
+      "detail": "Class 14"
+    }
+  ],
+  "lang": "en",
+  "ui": {
+    "skip": "Skip to content",
+    "nav": "Main navigation",
+    "brandSub": "Engineering, ideas & everyday life",
+    "aboutNav": "About",
+    "projectsNav": "Work",
+    "experienceNav": "Experience",
+    "lifeNav": "Life",
+    "contactNav": "Contact",
+    "language": "Switch to Chinese",
+    "themeWarm": "Switch to warm theme",
+    "themeSky": "Switch to sky theme",
+    "themeTitle": "Switch theme",
+    "contactLabel": "Contact me",
+    "heroEyebrow": "HELLO, WORLD. / CLOUDY’S CORNER",
+    "explore": "Explore my work ↗",
+    "hello": "Say hello ☺",
+    "edition": "PERSONAL SPACE / 2026",
+    "editionNote": "Take your time. You’re welcome here.",
+    "creator": "ABOUT THE CREATOR",
+    "cardLine": "Ideas in progress. Life in motion.",
+    "floatOne": "Where engineering meets curiosity.",
+    "floatTwo": "Keep asking. Keep making.",
+    "artCaption": "A LITTLE CORNER OF THE INTERNET",
+    "scroll": "Scroll to explore",
+    "aboutEye": "01 / A LITTLE ABOUT ME",
+    "aboutHeading": "More than one perspective.",
+    "aboutSub": "Engineering, technology and everything in between.",
+    "aboutHello": "Hello, I’m cloudy.yang.",
+    "characterAlt": "Full-body chibi illustration of cloudy.yang waving, with round glasses, dark wavy hair and a white shirt",
+    "characterCaption": "A little version of me. A warm welcome to you.",
+    "characterHello": "Say hello ↗",
+    "projectsEye": "02 / SELECTED WORK",
+    "projectsHeading": "Ideas, put into practice.",
+    "projectsSub": "Research projects and the work behind them.",
+    "filterLabel": "Filter projects",
+    "all": "All work",
+    "story": "Read the story",
+    "projectLink": "View repository ↗",
+    "close": "Close details",
+    "noProjects": "No projects in this category.",
+    "experienceEye": "03 / EXPERIENCE",
+    "experienceHeading": "Learning through doing.",
+    "experienceSub": "From engineering questions to hands-on practice.",
+    "lifeEye": "04 / OUTSIDE THE SCREEN",
+    "lifeHeading": "Life has its own rhythm.",
+    "lifeSub": "Music, cities and the small things worth remembering.",
+    "lifePending": "Personal photos coming soon",
+    "contactEye": "06 / SAY HELLO",
+    "contactHeading": "Let’s start a conversation.",
+    "contactSub": "About a project, an opportunity, or a simple hello.",
+    "emailPublic": "Personal email",
+    "emailSchool": "University email",
+    "phone": "Phone",
+    "top": "Back to top ↑",
+    "footer": "Stay curious. Stay in touch.",
+    "footerSub": "Personal space",
+    "applicantName": "Your name",
+    "applicantEmail": "Contact email",
+    "organization": "Organization (optional)",
+    "purpose": "Reason for requesting access",
+    "myRequests": "Your requests",
+    "refresh": "Refresh status",
+    "noRequests": "You haven’t submitted a request in this browser.",
+    "pending": "Awaiting review",
+    "expired": "Access expired",
+    "download": "Download résumé ↓",
+    "expires": "Access expires",
+    "loadError": "Unable to load content. Please refresh and try again.",
+    "network": "The server is unavailable. Please try again later.",
+    "validation": "Please check the form fields.",
+    "cross_site": "Cross-site submissions are not allowed.",
+    "invalid_submission": "Invalid submission.",
+    "rate_limit": "Too many submissions. Please try again later.",
+    "unauthorized": "Administrator authentication failed.",
+    "invalid_status": "Invalid review status.",
+    "not_found": "Not found.",
+    "email_invalid": "Please enter a valid email address.",
+    "access_denied": "This request is not approved, has expired, or belongs to another browser.",
+    "unpublish": "Unpublish",
+    "homeNav": "Home",
+    "photosNav": "Light & Life",
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "pageStatus": "Page",
+    "switchHint": "Swipe or use ← → to explore",
+    "educationTitle": "Places I’ve learned",
+    "photoEye": "05 / LIGHT & LIFE",
+    "photoHeading": "Light & Life",
+    "photoSub": "Drag through the photographs. Stay for the moments beyond them.",
+    "photoEmpty": "The first photographs are on their way.",
+    "photoEmptySub": "This space is waiting for my own photographs.",
+    "shufflePhotos": "Remix the frames ✦",
+    "refreshPhotos": "Refresh photos",
+    "photoOpen": "Open photograph",
+    "photoPrevious": "Previous photograph",
+    "photoNext": "Next photograph",
+    "photoClose": "Close photograph",
+    "photoError": "Unable to load photographs. Please try again.",
+    "photoMissing": "Image unavailable",
+    "photoCount": "photographs",
+    "playPhotos": "Play gallery",
+    "pausePhotos": "Pause gallery",
+    "galleryLabel": "Photograph gallery: drag, scroll or use arrow keys to browse",
+    "photoCaption": "Untitled photograph"
+  }
+}

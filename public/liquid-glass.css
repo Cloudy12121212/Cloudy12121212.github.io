@@ -1,0 +1,22 @@
+/* Shared liquid-glass surfaces for the homepage and private request screens. */
+:root{--liquid-surface:linear-gradient(135deg,rgba(255,250,246,.64),rgba(255,246,240,.28));--liquid-edge:rgba(255,255,255,.82);--liquid-shadow:inset 0 1px 2px #fff,inset 0 -1px 2px #ffffff66,0 12px 32px #57433516;--liquid-modal:linear-gradient(135deg,rgba(255,247,240,.94),rgba(239,221,208,.87))}
+body.sky{--liquid-surface:linear-gradient(135deg,rgba(248,253,255,.7),rgba(224,243,255,.3));--liquid-modal:linear-gradient(135deg,rgba(247,252,255,.95),rgba(210,231,247,.89))}
+.glass{border-color:var(--liquid-edge);box-shadow:var(--liquid-shadow);backdrop-filter:blur(22px) saturate(165%);-webkit-backdrop-filter:blur(22px) saturate(165%)}
+.timeline,.education-card,.life-card,.note,.resume-form,.request-card{background:var(--liquid-surface)}
+dialog,dialog.photo-lightbox{background:var(--liquid-modal);border:1px solid var(--liquid-edge);box-shadow:inset 0 2px 2px #fff,inset 0 -1px 2px #ffffff88,0 28px 90px #302a2844;backdrop-filter:blur(30px) saturate(170%);-webkit-backdrop-filter:blur(30px) saturate(170%);padding-top:76px}
+dialog::backdrop{background:rgba(40,33,30,.4);backdrop-filter:blur(12px) saturate(80%);-webkit-backdrop-filter:blur(12px) saturate(80%)}
+.button,.page-arrow,.nav-actions button,.circle,.filters button,dialog .close{background:var(--liquid-surface);border:1px solid var(--liquid-edge);box-shadow:var(--liquid-shadow);backdrop-filter:blur(16px) saturate(180%);-webkit-backdrop-filter:blur(16px) saturate(180%);transition:transform .22s,box-shadow .22s,background .22s}
+dialog .close{position:absolute;top:16px;right:16px;width:44px;height:44px;padding:0;display:grid;place-items:center;border-radius:50%;font-size:27px;line-height:1;color:var(--ink);z-index:2}
+.button.dark,.circle.dark,.filters button.active{background:linear-gradient(135deg,rgba(66,56,51,.91),rgba(43,36,32,.78))!important;color:#fff!important;border:1px solid #ffffff66;box-shadow:inset 0 1px 2px #ffffff55,inset 0 -1px 2px #ffffff22,0 8px 22px #302a2825}
+.sky .button.dark,.sky .circle.dark,.sky .filters button.active{background:linear-gradient(135deg,rgba(29,76,109,.94),rgba(20,52,79,.82))!important}
+.button:hover,.page-arrow:not(:disabled):hover,.nav-actions button:hover,.circle:hover,.filters button:hover,dialog .close:hover{transform:translateY(-2px);box-shadow:inset 0 2px 3px #fff,0 14px 28px #57433526}
+.button:active,.page-arrow:not(:disabled):active,.nav-actions button:active,.circle:active,.filters button:active,dialog .close:active{transform:translateY(0) scale(.96)}
+.badge,.tag{background:var(--liquid-surface);border:1px solid #ffffff88;box-shadow:inset 0 1px 1px #fff;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+input:not([type=checkbox]),textarea,select{background:rgba(255,255,255,.32);border:1px solid var(--liquid-edge);border-radius:16px;box-shadow:inset 0 2px 6px #57433509;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:var(--ink)}
+input:not([type=checkbox]):focus,textarea:focus,select:focus{background:rgba(255,255,255,.65)}
+input[type=checkbox]{accent-color:var(--accent)}
+.button:focus-visible,.page-arrow:focus-visible,dialog .close:focus-visible,.filters button:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+@supports not (backdrop-filter:blur(1px)){dialog,dialog.photo-lightbox{background:var(--bg)}.button,.page-arrow,.nav-actions button,.circle,.filters button,dialog .close{background:#f4e7df}.sky .button,.sky .page-arrow,.sky .nav-actions button,.sky .circle,.sky .filters button,.sky dialog .close{background:#e5f2fb}}
+@media(max-width:760px){dialog,dialog.photo-lightbox{padding-top:70px}dialog .close{top:12px;right:12px}}
+@media(prefers-reduced-motion:reduce){.button,.page-arrow,.nav-actions button,.circle,.filters button,dialog .close{transition:none}.button:hover,.page-arrow:hover,.nav-actions button:hover,.circle:hover,.filters button:hover,dialog .close:hover{transform:none}}
+@media(forced-colors:active){dialog,.button,.page-arrow,.nav-actions button,.circle,.filters button,dialog .close,.badge,.tag{border:1px solid ButtonText;box-shadow:none}.button.dark,.circle.dark,.filters button.active{background:ButtonFace!important;color:ButtonText!important}.filters button.active{outline:2px solid Highlight}}

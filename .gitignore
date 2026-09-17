@@ -1,0 +1,13 @@
+.venv/
+.venv-workers/
+python_modules/
+__pycache__/
+*.sqlite3
+.env*
+.dev.vars
+.wrangler/
+private/
+tmp/
+public/photos/
+public/avatars/
+.DS_Store

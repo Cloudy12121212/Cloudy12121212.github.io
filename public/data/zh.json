@@ -1,0 +1,248 @@
+{
+  "site_name": "Cloudy's Corner",
+  "name": "cloudy.yang",
+  "emails": [
+    "cloudy_1212@outlook.com",
+    "2354342@tongji.edu.cn"
+  ],
+  "phone": "+86 18259237265",
+  "socials": [
+    {
+      "name": "GitHub · Cloudy12121212",
+      "url": "https://github.com/Cloudy12121212"
+    }
+  ],
+  "avatar": "",
+  "about_avatar": "/avatars/cloudy-chibi-v3-glasses.png",
+  "profile_pending": false,
+  "github_pending": false,
+  "role": "交通工程 · 同济大学",
+  "intro": "保持好奇，\n让想法走向实践。",
+  "bio": "我是 cloudy.yang，同济大学交通工程本科生，关注人工智能、工程实践与实用工具的交汇。Base 厦门与上海。",
+  "about": "同济大学 · 交通工程本科\n2023–2027 · Base 厦门 & 上海\n我的实践方向包括 Python、大语言模型、工程仿真与计算机视觉。",
+  "projects": [
+    {
+      "id": "runway",
+      "title": "跑道智答：让工程与 AI 对话",
+      "category": "研究",
+      "year": "2024.12–2025.04",
+      "number": "01",
+      "summary": "面向机场道面结构响应分析与仿真的自然语言问答助手。",
+      "detail": "担任项目第一负责人，构建基于大语言模型的道面结构响应智能分析平台，涵盖需求识别、工程参数提取、力学建模、工况反演及结果可视化。\n\n负责 Python 后端全流程开发、Agent 架构与 Prompt 工程、模型微调，以及前端接口联调与逻辑排错。\n\n成果：获得《基于大语言模型的道面结构响应智能仿真系统》软件著作权，第一作者。\n\n公开仓库目前包含工程问答、参数反演与三维模型相关网页界面。上述 Python 后端职责来自个人简历，当前公开仓库尚未包含后端源码。",
+      "tags": [
+        "Python",
+        "LLM Agent",
+        "工程仿真"
+      ],
+      "link": "https://github.com/Cloudy12121212/LLM-based-intelligent-question-answering-system-for-airport-runway-structural-analysis",
+      "source": "研究 · 公开前端",
+      "related_links": [
+        {
+          "name": "早期前端版本 ↗",
+          "url": "https://github.com/Cloudy12121212/tjzhidazhushou"
+        }
+      ]
+    },
+    {
+      "id": "lowlight",
+      "title": "低光照下，让巡检看得更清楚",
+      "category": "研究",
+      "year": "2025.10–至今",
+      "number": "02",
+      "summary": "基于 CycleGAN 的无人机低光巡检图像增强研究。",
+      "detail": "担任项目第一负责人，研究无人机低光巡检图像增强与采集标准反推方法，通过视觉评价指标量化增强能力，探索机场道面巡检的视觉阈值。\n\n负责无人机外业数据采集、CycleGAN 模型训练与迭代、图像质量评估和算法参数优化。\n\n该课题仍在进行中，当前不声明未经提供的性能指标。\n\n公开仓库目前为空，暂作为项目入口保留。研究职责依据个人简历整理，代码尚未公开。",
+      "tags": [
+        "CycleGAN",
+        "计算机视觉",
+        "无人机巡检"
+      ],
+      "link": "https://github.com/Cloudy12121212/Low-light-UAV-image-enhancement-based-on-CycleGAN",
+      "source": "进行中的研究"
+    },
+    {
+      "id": "regulatory",
+      "title": "无人车监管：从档案到实时轨迹",
+      "category": "开发",
+      "year": "2026",
+      "number": "03",
+      "summary": "连接车辆档案、测试任务、实时状态与历史轨迹的综合监管平台。",
+      "detail": "面向无人驾驶测试与示范区域的 React 与 Spring Boot 监管平台。公开实现涵盖企业与车辆档案、测试任务、事件处理、设备数据上报和历史轨迹查询。\n\n技术架构包括 React / TypeScript、Spring Boot、MySQL、JWT / RBAC 与企业数据隔离，并通过 STOMP / WebSocket 推送实时状态。\n\n部分统计、配置与扩展分析页面使用明确标注的演示数据。项目定位是车辆监管，不包含自动驾驶控制或感知算法。",
+      "tags": [
+        "React",
+        "Spring Boot",
+        "MySQL",
+        "WebSocket"
+      ],
+      "link": "https://github.com/Cloudy12121212/shanghai-jiading-autonomous-vehicle-equipment-regulatory-platform",
+      "source": "公开仓库"
+    },
+    {
+      "id": "parking",
+      "title": "同济智停：校园停车交互原型",
+      "category": "原型",
+      "year": "2025.12",
+      "number": "04",
+      "summary": "从停车记录导入、占用统计到预约审核的校园停车体验探索。",
+      "detail": "基于 React / TypeScript 的校园停车界面，区分用户与管理视角，支持停车记录导入、小时占用量计算、图表展示和预约审核演示，并包含 Gemini 对话与报告生成接口。\n\n当前范围：预约保存在 React 内存中，可用车位预测采用时段规则，LSTM 训练日志与拟合曲线为模拟实现。该项目是交互原型，尚不能作为已上线停车服务或经过验证的训练模型展示。",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Recharts",
+        "交互原型"
+      ],
+      "link": "https://github.com/Cloudy12121212/Intelligence-Parking-System",
+      "source": "公开原型"
+    }
+  ],
+  "experience": [
+    {
+      "date": "2026.08–至今",
+      "title": "整车网络诊断 AI 测试开发实习生",
+      "org": "蔚来汽车 · 上海",
+      "logo": "/logos/nio.svg",
+      "text": "围绕整车网络诊断开发 Python 与大语言模型辅助测试工具，参与测试数据清洗、分析与可视化，推进自动化测试平台与工作流优化。"
+    },
+    {
+      "date": "2026.07–2026.08",
+      "title": "产品经理实习生",
+      "org": "上海车云数据科技有限公司",
+      "text": "参与嘉定无人驾驶示范区车辆及装备监管平台建设，涉及前端功能、数据服务、可视化看板与分级权限管理。"
+    }
+  ],
+  "life": [
+    {
+      "title": "屏幕之外，还有音乐",
+      "label": "同济大学校民乐团",
+      "text": "自 2023 年起参与同济大学校民乐团吹管声部，随团参加全国第七届大学生艺术展演、上海之春音乐会。乐团获第七届全国大学生艺术展演一等奖、长三角最佳团队荣誉；个人获校级博雅一等奖学金。在音乐里练习倾听、协作与表达。",
+      "image": ""
+    },
+    {
+      "title": "两座城市之间",
+      "label": "厦门 ↔ 上海",
+      "text": "Base 厦门与上海。这里留给我自己的城市照片、日常片段与旅行记录。",
+      "image": "",
+      "pending": true
+    }
+  ],
+  "education": [
+    {
+      "date": "2023–2027",
+      "school": "同济大学",
+      "logo": "/logos/tongji.svg",
+      "detail": "交通工程 · 本科"
+    },
+    {
+      "date": "2023 届",
+      "school": "福建省厦门市第一中学",
+      "logo": "/logos/xiamen-no1.svg",
+      "detail": "14 班"
+    }
+  ],
+  "lang": "zh",
+  "ui": {
+    "skip": "跳转至正文",
+    "nav": "主导航",
+    "brandSub": "工程、想法与日常生活",
+    "aboutNav": "关于",
+    "projectsNav": "作品",
+    "experienceNav": "经历",
+    "lifeNav": "生活",
+    "contactNav": "联系",
+    "language": "Switch to English",
+    "themeWarm": "切换暖色主题",
+    "themeSky": "切换天空主题",
+    "themeTitle": "切换主题",
+    "contactLabel": "联系我",
+    "heroEyebrow": "HELLO, WORLD. / CLOUDY’S CORNER",
+    "explore": "探索我的作品 ↗",
+    "hello": "来打个招呼 ☺",
+    "edition": "个人空间 / 2026",
+    "editionNote": "慢慢探索，随时来访。",
+    "creator": "ABOUT THE CREATOR",
+    "cardLine": "想法持续生长，生活不断向前。",
+    "floatOne": "在工程与好奇心之间，发现新的可能。",
+    "floatTwo": "保持追问，继续创造。",
+    "artCaption": "A LITTLE CORNER OF THE INTERNET",
+    "scroll": "向下探索",
+    "aboutEye": "01 / A LITTLE ABOUT ME",
+    "aboutHeading": "不止一种视角。",
+    "aboutSub": "工程、技术，以及生活里的其他可能。",
+    "aboutHello": "你好，我是 cloudy.yang。",
+    "characterAlt": "cloudy.yang 的全身 Q 版形象：圆框眼镜、深色卷发、白衬衫，挥手欢迎你",
+    "characterCaption": "小小的我，欢迎你来到这里。",
+    "characterHello": "和我打个招呼 ↗",
+    "projectsEye": "02 / SELECTED WORK",
+    "projectsHeading": "想法，落地之后。",
+    "projectsSub": "一些研究与实践，以及作品背后的思考。",
+    "filterLabel": "作品分类",
+    "all": "全部作品",
+    "story": "展开故事",
+    "projectLink": "查看仓库 ↗",
+    "close": "关闭详情",
+    "noProjects": "该分类暂时没有项目。",
+    "experienceEye": "03 / EXPERIENCE",
+    "experienceHeading": "在实践中，继续成长。",
+    "experienceSub": "从工程问题出发，走向真实的工作现场。",
+    "lifeEye": "04 / OUTSIDE THE SCREEN",
+    "lifeHeading": "生活，也有自己的节奏。",
+    "lifeSub": "音乐、城市与值得记录的小事。",
+    "lifePending": "个人照片待补充",
+    "contactEye": "06 / SAY HELLO",
+    "contactHeading": "聊聊你的想法？",
+    "contactSub": "关于作品、机会，或者只是打个招呼。",
+    "emailPublic": "公开邮箱",
+    "emailSchool": "学校邮箱",
+    "phone": "电话",
+    "top": "回到顶部 ↑",
+    "footer": "保持好奇，保持联系。",
+    "footerSub": "个人空间",
+    "applicantName": "你的姓名",
+    "applicantEmail": "联系邮箱",
+    "organization": "公司或组织（选填）",
+    "purpose": "申请原因",
+    "myRequests": "我的申请",
+    "refresh": "刷新状态",
+    "noRequests": "当前浏览器还没有提交过申请。",
+    "pending": "待审核",
+    "expired": "授权已过期",
+    "download": "下载简历 ↓",
+    "expires": "授权到期时间",
+    "loadError": "内容加载失败，请刷新重试。",
+    "network": "服务器暂时不可用，请稍后重试。",
+    "validation": "请检查表单填写内容。",
+    "cross_site": "不允许跨站提交。",
+    "invalid_submission": "提交无效。",
+    "rate_limit": "提交太频繁，请稍后再试。",
+    "unauthorized": "管理员认证失败。",
+    "invalid_status": "审核状态无效。",
+    "not_found": "记录不存在。",
+    "email_invalid": "请填写有效邮箱。",
+    "access_denied": "申请未获授权、已过期，或属于其他浏览器。",
+    "unpublish": "撤回公开",
+    "homeNav": "首页",
+    "photosNav": "光影",
+    "previousPage": "上一页",
+    "nextPage": "下一页",
+    "pageStatus": "页面",
+    "switchHint": "左右滑动，或使用 ← → 探索",
+    "educationTitle": "学习过的地方",
+    "photoEye": "05 / LIGHT & LIFE",
+    "photoHeading": "光影",
+    "photoSub": "拖动浏览照片，记录光线，也记录生活。",
+    "photoEmpty": "第一批照片，正在路上。",
+    "photoEmptySub": "这个空间留给我自己的摄影作品。",
+    "shufflePhotos": "重排胶片 ✦",
+    "refreshPhotos": "刷新照片",
+    "photoOpen": "打开照片",
+    "photoPrevious": "上一张照片",
+    "photoNext": "下一张照片",
+    "photoClose": "关闭照片",
+    "photoError": "照片加载失败，请稍后重试。",
+    "photoMissing": "照片暂时不可用",
+    "photoCount": "张照片",
+    "playPhotos": "播放光影",
+    "pausePhotos": "暂停播放",
+    "galleryLabel": "摄影画廊：拖动、滚动或使用方向键浏览",
+    "photoCaption": "未命名摄影作品"
+  }
+}
